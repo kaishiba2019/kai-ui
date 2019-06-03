@@ -1,0 +1,10 @@
+@import './var.less';
+.btn (@radius: 5px, @color: #fff, @bg: @Primary, @border: @Primary) {
+  color: @color;
+  border-radius: @radius;
+  background: @bg;
+  border: 1px solid @border;
+}
+.kai-btn[type="primary"] {
+  .btn()
+}
